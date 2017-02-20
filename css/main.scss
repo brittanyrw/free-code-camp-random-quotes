@@ -1,8 +1,6 @@
 $black: #08090A;
 $mint: #5DFDCB;
-$blue: #7CC6FE;
 $white: #F4FAFF;
-$purple: #8789C0;
 
 $open: 'Open Sans', sans-serif;
 $lora: 'Lora', serif;
@@ -18,7 +16,7 @@ body {
 }
 
 main {
-  color: white;
+  color: $white;
   margin: 0 auto;
   padding: 10px;
 }
@@ -87,6 +85,15 @@ span {
 
 .quote-search:active, .twitter:active {
   transform: translateY(10px);
+}
+
+.fa {
+  color: $mint;
+  margin: 10px;
+}
+
+.fa:hover {
+  color: $white;
 }
 
 @media screen and (min-width: 426px) and (-webkit-min-device-pixel-ratio: 1) { 

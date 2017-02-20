@@ -6,7 +6,7 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 main {
-  color: white;
+  color: #F4FAFF;
   margin: 0 auto;
   padding: 10px; }
 
@@ -64,6 +64,13 @@ span {
 
 .quote-search:active, .twitter:active {
   transform: translateY(10px); }
+
+.fa {
+  color: #5DFDCB;
+  margin: 10px; }
+
+.fa:hover {
+  color: #F4FAFF; }
 
 @media screen and (min-width: 426px) and (-webkit-min-device-pixel-ratio: 1) {
   .quote, .speaker {
