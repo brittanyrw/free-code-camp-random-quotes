@@ -1,0 +1,132 @@
+$black: #08090A;
+$mint: #5DFDCB;
+$blue: #7CC6FE;
+$white: #F4FAFF;
+$purple: #8789C0;
+
+$open: 'Open Sans', sans-serif;
+$lora: 'Lora', serif;
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background: $black;
+  font-family: $open;
+}
+
+main {
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.title {
+  font-weight: 300;
+}
+
+.quote-box {
+  width: 100%;
+  padding: 40px 10px 60px 10px;
+  background: $mint;
+  color: black;
+  border-left: 40px solid $white;
+}
+
+.quote {
+  display: inline;
+  font-weight: normal;
+  border-bottom: 5px solid $white;
+  line-height: 1.2;
+  font-size: 1em;
+}
+
+.quote-text {
+  width: 90%;
+  font-size: 1em;
+}
+
+.speaker {
+  float: right;
+  font-size: 1em;
+}
+
+button {
+  color: $white;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  margin: 10px 100px 0 -90px;
+  font-weight: bold;
+  background: $black;
+}
+
+span {
+  font-size: 4em;
+  margin: -15px;
+  line-height: 0;
+  font-family: $lora;
+}
+
+.buttons {
+  width: 70%;
+  margin: 10px 90px;
+}
+
+.twitter {
+  text-decoration: none;
+  border: 5px solid $mint;
+  color: white;
+}
+
+.quote-search {
+  border: 5px solid $white;  
+}
+
+.quote-search:active, .twitter:active {
+  transform: translateY(10px);
+}
+
+@media screen and (min-width: 426px) and (-webkit-min-device-pixel-ratio: 1) { 
+  .quote, .speaker {
+    font-size: 1.5em;
+  }
+  span {
+      font-size: 5em;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1) { 
+  main {
+    width: 80%;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) { 
+  main {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 1) { 
+  .quote, .speaker {
+    font-size: 2em;
+  }
+
+  main {
+    width: 60%;
+  }
+}
+
+
+
+
+
+
+
+
+
